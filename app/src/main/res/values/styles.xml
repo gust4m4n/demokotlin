@@ -1,0 +1,46 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar"> <!-- No blank white screen at startup -->
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowBackground">@drawable/demo_splash</item>
+
+        <!-- Status bar colors -->
+        <item name="android:statusBarColor">#ffffff</item>
+        <item name="android:windowLightStatusBar">false</item>
+
+        <!-- Bottom bar colors -->
+        <item name="android:navigationBarColor">#ffffff</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Action bar colors -->
+        <item name="colorPrimary">@color/MAIN</item>
+        <item name="android:actionMenuTextColor">#ffffff</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorHighlight">#d0d6d8</item>
+        <item name="colorControlActivated">#000000</item>
+
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+
+    </style>
+
+    <style name="ProgressBarStyle">
+        <item name="colorAccent">#6C4298</item>
+    </style>
+
+    <style name="AppTheme.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+    </style>
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/demo_rounded_bottom_sheet</item>
+    </style>
+
+</resources>

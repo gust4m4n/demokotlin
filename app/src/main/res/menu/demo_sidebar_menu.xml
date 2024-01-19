@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/edit_profile" android:icon="@drawable/ic_demo_help" android:title="@string/drawer_menu_edit_profile" />
+    <item android:id="@+id/channels" android:icon="@drawable/ic_demo_help" android:title="@string/drawer_menu_channels" />
+    <item android:id="@+id/chats" android:icon="@drawable/ic_demo_help" android:title="@string/drawer_menu_chats" />
+    <item android:id="@+id/contacts" android:icon="@drawable/ic_demo_help" android:title="@string/drawer_menu_contacts" />
+    <item android:id="@+id/help" android:icon="@drawable/ic_demo_help" android:title="@string/drawer_menu_help" />
+    <item android:id="@+id/logout" android:icon="@drawable/ic_demo_help" android:title="@string/drawer_menu_logout" />
+</menu>

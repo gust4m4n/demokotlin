@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingTop="6.0dp"
+            android:gravity="center"
+            android:paddingRight="12dp"
+            android:paddingBottom="6.0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Config 1"
+                android:textSize="16dp"
+                android:textStyle="normal">
+            </TextView>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:thumbTint="#6C4298"
+                android:trackTint="#96999D"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingTop="6.0dp"
+            android:gravity="center"
+            android:paddingRight="12dp"
+            android:paddingBottom="6.0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Config 2"
+                android:textSize="16dp"
+                android:textStyle="normal">
+            </TextView>
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="#6C4298" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingTop="6.0dp"
+            android:gravity="center"
+            android:paddingRight="12dp"
+            android:paddingBottom="6.0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Config 3"
+                android:textSize="16dp"
+                android:textStyle="normal">
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/radio1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="On"
+                    android:buttonTint="#6C4298" />
+                <RadioButton
+                    android:id="@+id/radio2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Off"
+                    android:buttonTint="#6C4298" />
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:paddingLeft="12dp"
+            android:paddingTop="6.0dp"
+            android:gravity="center"
+            android:paddingRight="12dp"
+            android:paddingBottom="6.0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="0.0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Config 4"
+                android:textSize="16dp"
+                android:textStyle="normal">
+            </TextView>
+            <SeekBar
+                android:id="@+id/seekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="50"
+                android:layout_margin="25dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
